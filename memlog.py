@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 import sys, os, psutil, time
 
+"""
+example crontab:
+*/5 * * * * /home/dbm/memlog/memlog.py >> /home/dbm/memlog/memlog.log
+"""
+
 #os.system("whoami")
 #rint(os.path.abspath('.'))
 
