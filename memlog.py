@@ -15,5 +15,5 @@ tot=m[0]
 avail=m[1]
 use=(tot-avail)/tot
 
-print ("time,%s,total,%4.3f,use,%4.5f" % (time.ctime(), tot/1000000000, use))
+print ("%s,total,%4.3f,use,%4.5f" % (time.ctime(), tot/1000000000, use))
 sys.stdout.flush()
